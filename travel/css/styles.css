@@ -1,0 +1,533 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end reset*/
+
+body {
+	font-family: 'Raleway', sans-serif, arial;
+	background-color: #336666;
+	background-image: url('../img/topography.png');
+}
+
+header {
+	margin: 0 auto;
+	background-image: url('../img/flight.jpg');
+	width: 1200px;
+	height: 700px;
+	background-color: #484848;
+}
+
+h2 {
+	font-family: 'Bad Script', cursive, arial;
+	padding-left: 150px;
+	font-size: 20px;
+	color: rgb(50, 65, 87);
+}
+
+#logo {
+	height: 265px;
+	width: 720px;
+	margin: 20px 100px 20px 100px;
+}
+
+/*end header*/
+
+/*NAVIGATION*/
+
+nav ul {
+	font-family: 'Amatic SC', cursive, arial;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(50, 65, 87, 0.8);
+    position: fixed;
+    top: 1%;
+    left: 0;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+/*END NAV*/
+
+/*tours*/
+.tours {
+	font-family: 'Raleway', sans-serif, arial;
+	width: 1200px;
+	margin: 0 auto;
+	height: auto;
+	background-color: rgba(50, 65, 87, 0.8);
+	float: center;
+	border-top-style: dotted;
+	border-color: #fff;
+	border-width: 3px;
+}
+
+.tours .one-third {
+	width: 400px;
+	height: 790px;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.tours .one-third p {
+	padding: 20px;
+}
+
+.tours .one-third li {
+	font-family: 'Amatic SC', cursive, arial;
+	list-style: none;
+}
+
+.tours .one-third li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.tours .one-third li a:hover {
+    background-color: #111;
+}
+.tours h3 {
+	font-family: 'Bad Script', cursive, arial;
+	font-size: 25px;
+	color: #fff;
+}
+
+.one-third li {
+	font-family: 'Amatic SC', cursive, arial;
+	font-size: 25px;
+	}
+
+#photographer {
+	padding: 15px;
+	max-width: 300px;
+	max-height: 300px;
+	border-radius: 50%;
+}
+
+#backpacker {
+	padding: 15px;
+	max-width: 300px;
+	max-height: 300px;
+	border-radius: 50%;
+}
+
+#planning {
+	padding: 15px;
+	max-width: 300px;
+	max-height: 300px;
+	border-radius: 50%;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/*end tours*/
+
+/*ABOUT*/
+
+.about {
+	font-family: 'Raleway', sans-serif, arial;
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.about h1 {
+	font-family: 'Bad Script', cursive, arial;
+	width: auto;
+	color: #fff;
+	height: 30px;
+	background-color: #A8A8A8;
+	font-size: 30px;
+	padding: 10px;
+}
+
+article.one-half {
+	width: 600px;
+	height: 650px;
+	background-color: #A8A8A8;
+	float: left;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 0 0 30px 20px;
+}
+
+.one-half h3 {
+	font-family: 'Amatic SC', cursive, arial;
+	font-size: 30px;
+	color: #fff;
+	text-align: left;
+	padding-top: 30px;
+}
+
+.one-half li {
+	font-family: 'Amatic SC', cursive, arial;
+	font-size: 30px;
+	list-style: none;
+}
+
+.one-half li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.one-half li a:hover {
+    background-color: #111;
+}
+#reflection {
+	padding: 15px;
+	max-width: 600px;
+	max-height: 600px;
+}
+
+#about {
+	text-align: center;
+	border-top-style: dotted;
+	border-bottom-style: dotted;
+	border-color: rgb(50, 65, 87);
+	border-width: 3px;
+}
+
+/*end about*/
+
+
+/*meet the team*/
+.team {
+	font-family: 'Raleway', sans-serif, arial;
+	background-color: rgba(50, 65, 87, 0.8);
+	width: 1200px;
+	margin: 0 auto;
+	height: auto;
+	float: center;
+}
+
+.team .one-third {
+	width: 400px;
+	height: 790px;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.team h5 {
+	font-family: 'Bad Script', cursive, arial;
+	font-size: 2em;
+	color: #fff;
+	padding-bottom: 20px;
+}
+
+.team h1 {
+	font-family: 'Bad Script', cursive;
+	width: auto;
+	color: #fff;
+	height: 30px;
+	font-size: 30px;
+	padding: 10px;
+}
+
+#team {
+	text-align: center;
+	border-top-style: dotted;
+	border-bottom-style: dotted;
+	border-color: #fff;
+	border-width: 3px;
+}
+
+#jenny {
+	padding: 15px;
+	max-width: 300px;
+	max-height: 300px;
+	border-radius: 50%;
+}
+
+#bobby {
+	padding: 15px;
+	max-width: 300px;
+	max-height: 300px;
+	border-radius: 50%;
+}
+
+#jude {
+	padding: 15px;
+	max-width: 300px;
+	max-height: 300px;
+	border-radius: 50%;
+}
+
+
+.clearfix {
+	clear: both;
+}
+
+/*end team*/
+
+/*testimonials*/
+.reviews {
+	font-family: 'Raleway', sans-serif, arial;
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	background-color: #A8A8A8;
+	border-top-style: dotted;
+	border-color: #fff;
+	border-width: 3px;
+}
+
+.reviews .one-third {
+	width: 400px;
+	height: auto;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.reviews h3 {
+	font-family: 'Bad Script', cursive;
+	text-align: center;
+	font-size: 2em;
+	color: #fff;
+	padding: 10px 0 0 10px;
+}
+.reviews span {
+	font-size: 20px;
+	color: #fff;
+	font-family: 'Amatic SC', cursive;
+}
+.reviews img {
+	border-radius: 50%;
+	padding-bottom: 20px;
+}
+
+.clearfix {
+	clear: both;
+}
+/*end testimonials*/
+
+/*booking form*/
+.booknow {
+	background-color: rgba(50, 65, 87, 0.8);
+	height: auto;
+	width: 900px;
+	margin: 0 auto;
+	float: center;
+	border-top-style: dotted;
+	border-color: #fff;
+	border-width: 3px;
+}
+.booknow form {
+	padding: 30px;
+}
+
+.booknow h2 {
+	font-family: 'Tangerine', cursive, arial;
+	font-size: 50px;
+	padding: 15px;
+	color: #fff;
+	margin: 0 auto;
+}
+.booknow form input, .booknow form textarea, .booknow form select {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+}
+
+#select {
+	padding: 10px 0 10px 0;
+}
+.booknow form h6 {
+	font-family: 'Amatic SC', cursive, arial;
+	color: #fff;
+	font-size: 25px;
+	float: left;
+	padding-right: 10px;
+}
+.booknow form h3 {
+	font-family: 'Tangerine', cursive, arial;
+	font-size: 30px;
+	color: #fff;
+}
+#submit {
+	padding-top: 360px;
+	padding-left: 30px
+}
+
+.booknow input[type="submit"] {
+	font-size: 30px;
+	font-family: 'Amatic SC', cursive, arial;
+}
+
+#floatright {
+	float: right;
+}
+
+#basics {
+	padding-left: 30px;
+	margin: 0 auto;
+	width: 0;
+	float: left;
+}
+.clearfix {
+	clear: both;
+}
+/*end booking info*/
+
+/*contact form*/
+.contact {
+	background-color: rgba(119,136,153,0.8);
+	color: white;
+	width: 650px;
+	height: 400px;
+	margin: 0 auto;
+	padding-top: 10px;
+	border-top-style: dotted;
+	border-color: #fff;
+	border-width: 3px;
+	}
+
+.contact h5 {
+	font-family: 'Tangerine', cursive, arial;
+	font-size: 50px;
+	margin: 0 auto;
+	margin-bottom: 0;
+}
+
+input {
+	font-family: 'Raleway', sans-serif, arial;
+	display: block;
+	margin: 10px 0;
+	border-radius: 5px;
+}
+
+textarea {
+	font-family: 'Raleway', sans-serif, arial;
+	border-radius: 5px;
+	text-align: center;
+}
+
+input[type="submit"] {
+	font-family: 'Amatic SC', cursive, arial;
+	background-color: rgba(50, 65, 87, 0.8);
+	color: white;
+	border-style: none;
+	font-size: 20px;
+}
+
+input[type="submit"]:hover {
+	background-color: rgba(246, 189, 137, 0.8); 
+}
+
+}
+
+.contact p {
+	font-family: 'Amatic SC', cursive, arial;
+	font-size: 24px;
+}
+
+#contact {
+	margin-left: 30px;
+	float: center;
+}
+
+#oneway {
+	border-radius: 50%;
+	height: auto; 
+    width: auto; 
+    max-width: 250px; 
+    max-height: 250px;
+    float: right;
+    padding: 30px;
+}
+
+.clearfix {
+	clear: both;
+}
+/*end contact form*/
+
+
+/*footer*/
+
+footer {
+	font-family: 'Raleway', sans-serif, arial;
+	width: auto;
+	height: 50px;
+	background-color: rgba(50, 65, 87, 0.8);
+	text-align: center;
+	font-size: 15px;
+}
+
+footer p {
+	padding: 20px;
+	color: #fff;
+}
+
+
+
+
+
+
